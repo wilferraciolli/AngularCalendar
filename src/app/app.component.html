@@ -1,2 +1,8 @@
 <app-header></app-header>
-<app-content></app-content>
+<app-content>
+  <app-sidebar 
+    [name]="getName()"
+    [startDate]="getStartDate()"
+    [startDate]="getEndDate()">
+  </app-sidebar>
+</app-content>
