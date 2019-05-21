@@ -15,6 +15,7 @@ export class ContentComponent implements OnInit {
   }
 
   public getName(): string{
+    console.log('-----------------------------------get anme was called');
     return 'Wiliam Ferraciolli';
   }
 

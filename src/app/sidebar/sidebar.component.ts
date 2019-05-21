@@ -12,6 +12,12 @@ export class SidebarComponent implements OnInit {
   public name: string;
 
   @Input()
+  public dateToDisplay: string;
+
+  @Input()
+  public eventCount: number;
+
+  @Input()
   public startDate: moment.Moment;
 
   @Input()
@@ -47,7 +53,7 @@ export class SidebarComponent implements OnInit {
       }
     }
 
-    return '';
+    return 'invalid';
   }
 
 }
