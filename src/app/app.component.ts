@@ -16,7 +16,7 @@ export class AppComponent  {
 
   public getDate(): string{
 
-    return 'Mon 01 2019';
+    return 'Mon 01 Jan 2019';
   }
 
    public getEventsCount(): number{

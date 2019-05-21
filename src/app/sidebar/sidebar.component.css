@@ -1,0 +1,20 @@
+.container{
+  /* display: flex;   */
+  width: 100%;
+}
+
+.image{
+  padding: 5px;
+}
+
+.name{
+ font-weight: bold;
+}
+
+.date{
+ float: left;
+}
+
+.eventCount{
+  float: right;
+}
