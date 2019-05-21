@@ -1,0 +1,6 @@
+.header{
+  display: flex;
+  background-color: lightgray;
+  padding: 15px;
+  min-height: 90px;
+}
